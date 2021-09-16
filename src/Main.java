@@ -20,12 +20,7 @@ public class Main {
         System.out.println("Chiều cao " + cat.height );
         System.out.println("Màu lông " + cat.color );
 
-        Cat cat = new Cat(1, "gray", 3, 2);
-        cat.eat();
-        System.out.println("Cân nặng " + cat.weight);
-        System.out.println("Chiều cao " + cat.height);
-        System.out.println("Màu lông " + cat.color);
-        System.out.println("Chiều dài " + cat.width);
+
 
 
          access modifier : phạm vi hoạt động
@@ -47,6 +42,10 @@ public class Main {
 
         Tạo phương thức
         */
+
+        Cat cat = new Cat(1, "gray", 3, 2);
+        String info = cat.info();
+        System.out.println(info);
 
     }
 
