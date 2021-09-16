@@ -11,12 +11,24 @@ public class Cat extends Animal {
         System.out.println("Chạy bằng 4 chân");
     }
 
-    public String info(){
-        return  "Thông tin của con Mèo" + "\n" +
-                "Cân nặng : " + weight + "\n" +
-                "Chiều cao : " + height + "\n" +
-                "Màu lông : " + color + "\n" +
-                "Chiều dài : " + width + "\n";
+//    public String info(){
+//        return  "Thông tin của con Mèo" + "\n" +
+//                "Cân nặng : " + weight + "\n" +
+//                "Chiều cao : " + height + "\n" +
+//                "Màu lông : " + color + "\n" +
+//                "Chiều dài : " + width + "\n";
+//    }
+
+    // alt + insert : hiện thị các công cụ
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                "width=" + width +
+                ", height=" + height +
+                ", color='" + color + '\'' +
+                ", weight=" + weight +
+                '}';
     }
 
 

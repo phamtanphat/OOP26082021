@@ -44,7 +44,7 @@ public class Main {
         */
 
         Cat cat = new Cat(1, "gray", 3, 2);
-        String info = cat.info();
+        String info = cat.toString();
         System.out.println(info);
 
     }
