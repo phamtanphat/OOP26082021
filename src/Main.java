@@ -50,12 +50,16 @@ public class Main {
         // 2 : Tạo ra cùng 1 nơi tạo ra
         // thực thi phương thức
 //         showMessage();
-        Cat cat = new Cat(1,"gray",1,1);
-        cat.eat();
+//        Cat cat = new Cat(1,"gray",1,1);
+//        cat.eat();
+
+        Animal animal = new Animal(1,"gray",1);
+        animal.setHeight(10);
+
     }
-    private static void showMessage(String message){
-        System.out.println(message);
-    }
+//    private static void showMessage(String message){
+//        System.out.println(message);
+//    }
 //
 //    private static void showMessage(String message , int age){
 //        System.out.println(message);
