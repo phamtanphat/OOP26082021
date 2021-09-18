@@ -1,3 +1,7 @@
+import abstraction.Pizza;
+import abstraction.PizzaCheese;
+import abstraction.PizzaStore;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -53,8 +57,12 @@ public class Main {
 //        Cat cat = new Cat(1,"gray",1,1);
 //        cat.eat();
 
-        Animal animal = new Animal(1,"gray",1);
-        animal.setHeight(10);
+//        Animal animal = new Animal(1,"gray",1);
+//        animal.setHeight(10);
+
+        PizzaStore pizzaStore = new PizzaStore();
+        pizzaStore.orderPizza(new PizzaCheese());
+
 
     }
 //    private static void showMessage(String message){
