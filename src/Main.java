@@ -48,14 +48,17 @@ public class Main {
         // overload : phương thức nạp chồng
         // 1 : Khác với nhau về tham số truyền vào
         // 2 : Tạo ra cùng 1 nơi tạo ra
-        showMessage();
+        // thực thi phương thức
+//         showMessage();
+        Cat cat = new Cat(1,"gray",1,1);
+        cat.eat();
     }
     private static void showMessage(String message){
         System.out.println(message);
     }
-
-    private static void showMessage(String message , int age){
-        System.out.println(message);
-    }
+//
+//    private static void showMessage(String message , int age){
+//        System.out.println(message);
+//    }
 
 }
