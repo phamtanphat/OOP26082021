@@ -42,23 +42,20 @@ public class Main {
 
         Tạo phương thức
         */
+//        overload;
+//        override
 
-        Cat cat = new Cat(1, "gray", 3, 2);
-        String info = cat.toString();
-        System.out.println(info);
-
+        // overload : phương thức nạp chồng
+        // 1 : Khác với nhau về tham số truyền vào
+        // 2 : Tạo ra cùng 1 nơi tạo ra
+        showMessage();
+    }
+    private static void showMessage(String message){
+        System.out.println(message);
     }
 
-    // 1 : access modifier
-    // 2 : giá trị trả về sau khi phương thức xử lý xong
-    // 3 : tên phương thức
-    // 4 : tham số truyền vào
-
-    //1     2    3      4
-    private int tinhTong(int a, int b) {
-        int result = a + b;
-        return result;
+    private static void showMessage(String message , int age){
+        System.out.println(message);
     }
-
 
 }
